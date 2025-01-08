@@ -104,7 +104,7 @@ body {
 
     <!-- ページ更新監視フォーム -->
     <h2>ページ更新監視</h2>
-    <form action="index.php" method="post">
+    <form action="update_check.php" method="post">
         <label for="page_url">監視するページのURL:</label><br>
         <input type="text" id="page_url" name="page_url" required><br><br>
 
